@@ -22,7 +22,7 @@ fake = Faker()
 
 # Hugging Face API settings
 HUGGINGFACE_API_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")
-HF_API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
+HF_API_URL = "https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0"
 
 HEADERS = {"Authorization": f"Bearer {HUGGINGFACE_API_TOKEN}"}
 
